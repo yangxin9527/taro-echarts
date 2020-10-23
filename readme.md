@@ -3,16 +3,14 @@
 1. 微信小程序使用echarts
 2. 分包独立出echart,不占用主包内容
 
-#### 命令 
+#### 自定义命令 
     npm run weapp //打包
-    
-    node fixRequire.js //单独处理ec-canvas.js文件
 
-#### 效果
-![TaroECharts预览地址](./result.png)
+#### 效果(图片看不到是raw.githubusercontent.com ip污染)
+![TaroECharts预览地址](https://raw.githubusercontent.com/yangxin9527/taro-echarts/main/result.png)
 
-#### 预览地址
-![TaroECharts预览地址](./qr.jpg)
+#### 预览地址(图片看不到是raw.githubusercontent.com ip污染)
+![TaroECharts预览地址](https://raw.githubusercontent.com/yangxin9527/taro-echarts/main/qr.jpg)
 
 
 #### tarojs版本 3.0+ 使用经测试没有问题

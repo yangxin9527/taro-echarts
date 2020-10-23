@@ -50,8 +50,18 @@ class Index extends Component {
   render () {
     return (
       <View className='panel'>
-        <View className='tips'>
-          仓库地址:https://github.com/yangxin9527
+        <View className='tips' onClick={()=>{
+          Taro.setClipboardData({
+            data: 'https://github.com/yangxin9527/taro-echarts',
+            success: function () {
+              Taro.showToast({
+                title:'已复制'
+              })
+            }
+          })
+        }}
+        >
+          仓库地址:https://github.com/yangxin9527/taro-echarts(点击复制)
         </View>
         {this.state.charts.map((chart) => {
           return (
